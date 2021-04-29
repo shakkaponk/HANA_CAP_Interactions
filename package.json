@@ -6,12 +6,16 @@
     "license": "UNLICENSED",
     "private": true,
     "dependencies": {
+        "@sap/audit-logging": "^5.0.0",
         "@sap/cds": "^4",
+        "@sap/hana-client": "^2.8",
+        "@sap/xsenv": "^3.1.0",
+        "@sap/xssec": "^3.2.0",
         "express": "^4",
-        "@sap/hana-client": "^2.8"
+        "passport": "^0.4.1"
     },
     "scripts": {
-        "start": "cds run"
+        "start": "NODE_ENV=production cds run"
     },
     "cds": {
         "build": {
@@ -23,7 +27,16 @@
         "requires": {
             "db": {
                 "kind": "hana"
+            },
+            "uaa": {
+                "kind": "xsuaa"
             }
         }
+    },
+    "sapux": [
+        "app/interaction_items"
+    ],
+    "devDependencies": {
+        "@sap/ux-specification": "^1.84.9"
     }
 }
