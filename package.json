@@ -1,8 +1,8 @@
 {
     "name": "Interactions",
     "version": "1.0.0",
-    "description": "A simple CAP project.",
-    "repository": "<Add your repository here>",
+    "description": "A CAP project which also exposes HANA Native artifacts : Calculation view and HDB Procedure. The project includes authentication.",
+    "repository": "https://github.com/shakkaponk/HANA_CAP_Interactions.git",
     "license": "UNLICENSED",
     "private": true,
     "dependencies": {

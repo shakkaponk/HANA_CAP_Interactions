@@ -1,8 +1,6 @@
 # Getting Started
-
-Welcome to your new project.
-
-It contains these folders and files, following our recommended project layout:
+CAP Project based on this tutorial : 
+https://developers.sap.com/mission.hana-cloud-cap.html
 
 File or Folder | Purpose
 ---------|----------
